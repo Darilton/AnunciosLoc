@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AnunciosLoc</string>
+    <string name="profile_info_label">Informações do Perfil</string>
+    <string name="profile_page_title">Perfil</string>
+    <string name="username_label">Catarina Correia</string>
+    <string name="usermail_label">catarina@gmail.com</string>
 </resources>
