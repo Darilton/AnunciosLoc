@@ -13,7 +13,9 @@
     <string name="login">Entrar</string>
     <string name="email">Usuário*</string>
     <string name="password">Palavra-passe*</string>
-    <string name="full_name">Nome Completo</string>
-    <string name="linkSignUp">Não tens conta? Cria uma</string>
-    <string name="already_have_account">Já tens conta? Inicia sessão</string>
-</resources>
+    <string name="SignUpTitle">Crie uma conta</string>
+    <string name="emailSignUp">Usuário*</string>
+    <string name="passwordSignUp">Palavra-passe*</string>
+    <string name="confirmPasswordSignUp">Confirmar Palavra-passe*</string>
+    <string name="linkSignIn">Ao se inscrever nesse aplicativo, vocce também concorda nossos Termos de Serviço e Política de Privacidade.</string>
+    </resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="20dp">-->
+
+<!--            &lt;!&ndash; Imagem principal &ndash;&gt;-->
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/logoImage"-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="150dp"-->
+<!--                    android:layout_marginStart="4dp"-->
+<!--                    android:contentDescription="@string/app_logo"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.0"-->
+<!--                    app:srcCompat="@drawable/anuncio_logo"-->
+<!--                    tools:ignore="MissingConstraints" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/logoutImage"-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="150dp"-->
+<!--                    android:layout_marginEnd="4dp"-->
+<!--                    android:contentDescription="@string/app_logo"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.0"-->
+<!--                    app:srcCompat="@drawable/logout"-->
+<!--                    tools:ignore="MissingConstraints" />-->
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--            &lt;!&ndash; Título do anúncio &ndash;&gt;-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/orderTitle"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Apartamento T2 no centro"-->
+<!--                android:textSize="22sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/primaryText"-->
+<!--                android:layout_marginBottom="4dp" />-->
+
+<!--            &lt;!&ndash; Localização ou categoria &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/orderLocation"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Luanda · Maianga"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textColor="@color/secondaryText"-->
+<!--                android:layout_marginBottom="16dp" />-->
+
+<!--            &lt;!&ndash; Descrição &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/orderDescription"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Apartamento T2 totalmente mobilado, ideal para jovens casais. Próximo de mercados e transportes públicos. Inclui varanda e estacionamento."-->
+<!--                android:textSize="16sp"-->
+<!--                android:textColor="@color/primaryText"-->
+<!--                android:layout_marginBottom="24dp" />-->
+
+<!--            &lt;!&ndash; Preço &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/orderPrice"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="120 000 KZ / mês"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/primaryColor"-->
+<!--                android:layout_marginBottom="32dp" />-->
+
+<!--            &lt;!&ndash; Botões de ação &ndash;&gt;-->
+<!--            <Button-->
+<!--                android:id="@+id/btnContact"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Contactar Anunciante"-->
+<!--                android:backgroundTint="@color/buttonYellow"-->
+<!--                android:textColor="@color/primaryText"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:layout_marginBottom="16dp"-->
+<!--                android:elevation="3dp"-->
+<!--                android:paddingVertical="10dp" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btnMoreInfo"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Ver Mais Detalhes"-->
+<!--                android:backgroundTint="@color/primaryColor"-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:elevation="3dp"-->
+<!--                android:paddingVertical="10dp" />-->
+
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>
