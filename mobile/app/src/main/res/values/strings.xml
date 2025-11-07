@@ -4,4 +4,16 @@
     <string name="profile_page_title">Perfil</string>
     <string name="username_label">Catarina Correia</string>
     <string name="usermail_label">catarina@gmail.com</string>
+    <string name="app_logo">App logo</string>
+    <string name="btnSignIn">Entrar</string>
+    <string name="btnRegister">Registar-se</string>
+    <string name="btnLogin">Entrar</string>
+    <string name="sign_up">Criar Conta</string>
+    <string name="loginTitle">Entre na sua Conta</string>
+    <string name="login">Entrar</string>
+    <string name="email">Usuário*</string>
+    <string name="password">Palavra-passe*</string>
+    <string name="full_name">Nome Completo</string>
+    <string name="linkSignUp">Não tens conta? Cria uma</string>
+    <string name="already_have_account">Já tens conta? Inicia sessão</string>
 </resources>
