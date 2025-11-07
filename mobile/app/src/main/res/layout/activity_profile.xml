@@ -114,6 +114,15 @@
                         android:hint="Localização" />
                 </com.google.android.material.textfield.TextInputLayout>
 
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#902828"
+                    android:text="@string/profile_confirm_changes_button"
+                    app:cornerRadius="10dp" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

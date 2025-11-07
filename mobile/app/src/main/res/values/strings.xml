@@ -4,4 +4,5 @@
     <string name="profile_page_title">Perfil</string>
     <string name="username_label">Catarina Correia</string>
     <string name="usermail_label">catarina@gmail.com</string>
+    <string name="profile_confirm_changes_button">Confirmar Alterações</string>
 </resources>
