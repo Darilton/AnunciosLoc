@@ -11,6 +11,7 @@
     <string name="sign_up">Criar Conta</string>
     <string name="loginTitle">Entre na sua Conta</string>
     <string name="login">Entrar</string>
+    <string name="linkSignUp">Ainda não tem uma conta? Inscrever-se</string>
     <string name="email">Usuário*</string>
     <string name="password">Palavra-passe*</string>
     <string name="SignUpTitle">Crie uma conta</string>
@@ -18,4 +19,18 @@
     <string name="passwordSignUp">Palavra-passe*</string>
     <string name="confirmPasswordSignUp">Confirmar Palavra-passe*</string>
     <string name="linkSignIn">Ao se inscrever nesse aplicativo, vocce também concorda nossos Termos de Serviço e Política de Privacidade.</string>
+
+
+    <string name="gestaoMensagem">Gestão de Mensagens</string>
+    <string name="btnPublicadas">Mensagens Publicadas</string>
+    <string name="btnRecebidas">Mensagens Recebidas</string>
+
+
+    <string name="mensagemPartilhadas">Mensagens Partilhadas</string>
+    <string name="btnMensagensSalvas">Mensagens Salvas</string>
+    <string name="mapaLocalizacao">Mapas de Localização</string>
+
+
+
+
     </resources>
