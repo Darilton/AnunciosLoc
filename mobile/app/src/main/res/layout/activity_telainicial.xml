@@ -9,13 +9,21 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/app_logo"
+            app:srcCompat="@drawable/anuncio_logo"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="-11dp" />
 
         <ImageView
             android:id="@+id/homeImage"
@@ -24,50 +32,37 @@
             android:contentDescription="@string/app_logo"
             app:srcCompat="@drawable/mobile_marketing" />
 
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="283dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"
+            android:backgroundTint="@color/yellow"
+            android:elevation="3dp"
+            android:paddingVertical="10dp"
+            android:text="@string/btnLogin"
+            android:textAllCaps="false"
+            android:textColor="@color/red"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="588dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="283dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"
+            android:backgroundTint="@color/yellow"
+            android:elevation="3dp"
+            android:paddingVertical="10dp"
+            android:text="@string/btnRegister"
+            android:textAllCaps="false"
+            android:textColor="@color/red"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="645dp" />
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/logoImage"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:contentDescription="@string/app_logo"
-        app:srcCompat="@drawable/anuncio_logo"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="-11dp"
-        tools:ignore="MissingConstraints" />
-
-
-    <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="283dp"
-        android:layout_height="48dp"
-        android:layout_gravity="center"
-        android:layout_marginHorizontal="40dp"
-        android:backgroundTint="@color/yellow"
-        android:elevation="3dp"
-        android:paddingVertical="10dp"
-        android:text="@string/btnLogin"
-        android:textAllCaps="false"
-        android:textColor="@color/red"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="588dp"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/btnRegister"
-        android:layout_width="283dp"
-        android:layout_height="48dp"
-        android:layout_gravity="center"
-        android:layout_marginHorizontal="40dp"
-        android:backgroundTint="@color/yellow"
-        android:elevation="3dp"
-        android:paddingVertical="10dp"
-        android:text="@string/btnRegister"
-        android:textAllCaps="false"
-        android:textColor="@color/red"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="645dp"
-        tools:ignore="MissingConstraints" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
