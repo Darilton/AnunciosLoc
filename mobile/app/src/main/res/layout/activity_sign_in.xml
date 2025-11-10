@@ -18,26 +18,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp">
 
             <ImageView
                 android:id="@+id/logoImage"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:contentDescription="@string/app_logo"
-                app:srcCompat="@drawable/anuncio_logo"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="143dp"
-                tools:layout_editor_absoluteY="-11dp" />
+                app:srcCompat="@drawable/anuncio_logo"/>
 
             <TextView
                 android:id="@+id/loginTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="24dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
                 android:text="@string/loginTitle"
                 android:textSize="45sp"
                 android:textStyle="bold"
@@ -75,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/login"
                 android:textAllCaps="false"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="10dp"
                 android:backgroundTint="@color/yellow"
                 android:textColor="@color/red" />
 
@@ -83,14 +81,16 @@
                 android:id="@+id/linkSignUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
                 android:text="@string/linkSignUp"
                 android:textColor="@color/black" />
 
             <ImageView
                 android:id="@+id/homeImage"
-                android:layout_width="340dp"
-                android:layout_height="376dp"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="300dp"
                 android:contentDescription="@string/app_logo"
                 app:srcCompat="@drawable/location" />
         </LinearLayout>
