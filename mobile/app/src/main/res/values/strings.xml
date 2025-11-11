@@ -30,5 +30,15 @@
     <string name="btnMensagensSalvas">Mensagens Salvas</string>
     <string name="mapaLocalizacao">Mapas de Localização</string>
 
+    <!-- Lista de locais -->
+    <string-array name="locais">
+        <item>Selecionar um local</item>
+        <item>Luanda</item>
+        <item>Benguela</item>
+        <item>Huambo</item>
+        <item>Lubango</item>
+        <item>Malanje</item>
+    </string-array>
+
 
 </resources>

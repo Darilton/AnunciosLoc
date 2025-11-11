@@ -5,6 +5,7 @@
     <color name="red">#df1717</color>
     <color name="yellow">#ffcd04</color>
     <color name="yellowTransparente">#40ffcd04</color>
+    <color name="gray">#808080</color>
 
 
 </resources>
