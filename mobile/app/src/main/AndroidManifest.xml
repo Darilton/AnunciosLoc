@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AnunciosLoc">
         <activity
+            android:name=".MeusLocaisActivity"
+            android:exported="false" />
+        <activity
             android:name=".Profile"
             android:exported="true" />
         <activity
@@ -23,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AdicionarLocalActivity" />
     </application>
 
 </manifest>
