@@ -18,6 +18,9 @@
             android:name=".SignInActivity"
             android:exported="false" />
         <activity
+            android:name=".MeusLocaisActivity"
+            android:exported="false" />
+        <activity
             android:name=".Profile"
             android:exported="true" />
         <activity
